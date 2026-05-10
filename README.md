@@ -1,0 +1,1 @@
+Event Booking System — A full-stack web application built with PHP that allows users to browse, register for, and manage events. Features include user authentication, event creation and management, booking tracking, and an admin dashboard for overseeing attendees and event details. Designed with a clean UI and a MySQL backend for reliable data handling.
