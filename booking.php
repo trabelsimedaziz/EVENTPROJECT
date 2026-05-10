@@ -66,7 +66,7 @@ $requests = $requestModel->listRequests();
             </td>
             <td>
                 <?php if($_SESSION['role'] == 'admin' && $r['status'] == 'pending'): ?>
-                    <form action="request_action.php" method="POST" style="display:inline;">
+                    <form action="request.php" method="POST" style="display:inline;">
                         <input type="hidden" name="id" value="<?php echo $r['id']; ?>">
                         <input type="number" name="price" placeholder="Price" required style="width:80px;">
                         <button type="submit" name="action" value="approve" class="btn btn-success">Approve</button>

@@ -176,7 +176,7 @@ if($action == 'edit') {
 
         <div id="requestModal" class="modal" style="display:none;">
             <h3>Request Event</h3>
-            <form action="request_handler.php" method="POST">
+            <form action="request.php" method="POST">
                 <label>Event Name:</label>
                 <input type="text" name="event_name" required>
                 <label>Event Date:</label>
